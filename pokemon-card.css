@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: linear-gradient(160deg, #ffe066, #ffcc00, #ffd700);
+  border: 3px solid #b8860b;
+  border-radius: 16px;
+  width: 280px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.card-hp {
+  font-size: 14px;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+.card-image-container {
+  background-color: #fff9e6;
+  border: 2px solid #b8860b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card-type {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.type-badge {
+  background-color: #f7e200;
+  border: 1px solid #b8860b;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-description {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-size: 11px;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 8px 4px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: #555;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-number {
+  font-size: 12px;
+  color: #555;
+}
+
+.card-rarity {
+  font-size: 14px;
+  color: #b8860b;
+  letter-spacing: 2px;
+}
