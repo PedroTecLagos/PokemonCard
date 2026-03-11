@@ -22,6 +22,15 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
+.card2 {
+  background: linear-gradient(160deg, #7400FF, #ffcc00, #ffd700);
+  border: 3px solid #b8860b;
+  border-radius: 16px;
+  width: 280px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -35,10 +44,22 @@ body {
   color: #1a1a1a;
 }
 
+.card-name2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
 .card-hp {
   font-size: 14px;
   font-weight: bold;
   color: #cc0000;
+}
+
+.card-hp2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
 .card-image-container {
@@ -67,6 +88,16 @@ body {
 .type-badge {
   background-color: #f7e200;
   border: 1px solid #b8860b;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.type-badge2 {
+  background-color: #8727F5;
+  border: 1px solid #7E50B5;
   border-radius: 20px;
   padding: 3px 12px;
   font-size: 12px;
