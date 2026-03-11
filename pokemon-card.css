@@ -22,14 +22,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-.card2{
-  background: linear-gradient(160deg, #ff9a3c, #ff6b1a, #ff3c00);
-  border: 3px solid #8b2500;
-  border-radius: 16px;
-  width: 280px;
-  padding: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -138,4 +131,14 @@ body {
   font-size: 14px;
   color: #b8860b;
   letter-spacing: 2px;
+}
+
+
+.card2{
+  background: linear-gradient(160deg, #ff9a3c, #ff6b1a, #ff3c00);
+  border: 3px solid #8b2500;
+  border-radius: 16px;
+  width: 280px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
