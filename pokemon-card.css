@@ -131,3 +131,23 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+.cubone {
+  background: linear-gradient(160deg, #d2b48c, #bc8f8f, #a0522d);
+  border: 3px solid #5d4037;
+}
+
+.cubone .card-image-container {
+  background-color: #f5f5dc;
+  border: 2px solid #5d4037;
+}
+
+.cubone .type-badge {
+  background-color: #8b4513;
+  border: 1px solid #5d4037;
+  color: #fff;
+}
+
+.cubone .card-rarity {
+  color: #3e2723;
+}
