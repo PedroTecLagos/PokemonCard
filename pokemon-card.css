@@ -131,3 +131,55 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+
+/* Estilos Rayquaza*/
+.card-rayquaza-unique {
+  background: linear-gradient(165deg, #0a2e12, #1b4d2e, #000000) !important;
+  border: 3px solid #ffd700 !important;
+  box-shadow: 0 10px 30px rgba(0, 255, 127, 0.4);
+}
+
+.name-rayquaza {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hp-rayquaza {
+  color: #f1c40f !important;
+}
+
+.bg-rayquaza {
+  background: radial-gradient(circle, #2ecc71, #051a0b) !important;
+  border: 2px solid #ffd700 !important;
+}
+
+.badge-rayquaza {
+  background-color: #6f35fc !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.desc-rayquaza {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.text-white {
+  color: #ecf0f1 !important;
+}
+
+.stats-rayquaza {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.val-rayquaza {
+  color: #ffffff !important;
+}
+
+.label-rayquaza {
+  color: #bdc3c7 !important;
+}
+
+.rarity-rayquaza {
+  color: #f1c40f !important;
+}
