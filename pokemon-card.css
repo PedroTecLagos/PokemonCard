@@ -14,12 +14,12 @@ body {
 }
 
 .card {
-  background: linear-gradient(160deg, #ffe066, #ffcc00, #ffd700);
-  border: 3px solid #b8860b;
+  background: linear-gradient(160deg, #5a2a82, #7b3fb2, #9b59b6);
+  border: 3px solid #3d1a5c;
   border-radius: 16px;
   width: 280px;
   padding: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 .card2 {
   background: linear-gradient(160deg, #4da0d8, #4520db, #2c3d9e);
@@ -72,13 +72,13 @@ body {
 }
 
 .type-badge {
-  background-color: #f7e200;
-  border: 1px solid #b8860b;
+ background-color: #7b3fb2;
+  border: 1px solid #3d1a5c;
   border-radius: 20px;
   padding: 3px 12px;
   font-size: 12px;
   font-weight: bold;
-  color: #333;
+  color: white;
 }
 
 .card-description {
@@ -130,7 +130,7 @@ body {
 
 .card-number {
   font-size: 12px;
-  color: #555;
+  color: #000000;
 }
 
 .card-rarity {
