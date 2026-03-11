@@ -131,3 +131,23 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+/* CARD CECILIA */
+.card-ifa {
+  background: linear-gradient(160deg, #E6FFF8, #83ffde, #2EFFC7);
+  border: 3px solid #fdd816;
+  border-radius: 16px;
+  width: 280px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.type-badge-ifa {
+  background-color: white;
+  border: 1px solid #fdd816;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
