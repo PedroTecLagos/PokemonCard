@@ -22,6 +22,16 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
+.card-geto {
+      background: linear-gradient(160deg, #1e0538, #2d0a4e 45%, #0f0020);
+      border: 2.5px solid #c9a84c;
+      border-radius: 18px;
+      width: 288px;
+      padding: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -34,6 +44,14 @@ body {
   font-weight: bold;
   color: #1a1a1a;
 }
+.card-name-geto {
+      font-family: 'Cinzel', serif;
+      font-size: 17px;
+      font-weight: 900;
+      color: #f0e6ff;
+      text-shadow: 0 0 12px rgba(201,168,76,0.5), 0 1px 0 #000;
+      letter-spacing: 0.5px;
+    }
 
 .card-hp {
   font-size: 14px;
@@ -73,6 +91,20 @@ body {
   font-weight: bold;
   color: #333;
 }
+.type-badge-geto {
+      display: inline-block;
+      background: linear-gradient(90deg, #3b0066, #5c009e, #3b0066);
+      border: 1px solid #b8860b;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      font-weight: 700;
+      color: #ffe599;
+      letter-spacing: 0.8px;
+      text-shadow: 0 0 6px rgba(201,168,76,0.5);
+      box-shadow: 0 0 8px rgba(106,13,173,0.6);
+    }
 
 .card-description {
   background-color: rgba(255, 255, 255, 0.5);
