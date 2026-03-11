@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  background: linear-gradient(160deg, #ffe066, #ffcc00, #ffd700);
+  background: linear-gradient(160deg,#CCC4C2);
   border: 3px solid #b8860b;
   border-radius: 16px;
   width: 280px;
@@ -42,7 +42,7 @@ body {
 }
 
 .card-image-container {
-  background-color: #fff9e6;
+  background-color: white;
   border: 2px solid #b8860b;
   border-radius: 10px;
   display: flex;
