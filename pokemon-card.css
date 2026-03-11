@@ -131,3 +131,33 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+/* Eevee -Yara */
+.card-eevee {
+  background: linear-gradient(160deg, #d4a96a, #c68642, #a0522d);
+  border-color: #6b3a1f;
+}
+
+.card-eevee .card-name {
+  color: #fff8f0;
+}
+
+.card-eevee .card-image-container {
+  background-color: #fdf3e3;
+  border-color: #6b3a1f;
+}
+
+.card-eevee .type-badge {
+  background-color: #e8c99a;
+  border-color: #6b3a1f;
+  color: #3a1f00;
+}
+
+.card-eevee .card-number,
+.card-eevee .stat-label {
+  color: #f5deb3;
+}
+
+.card-eevee .card-rarity {
+  color: #ffe4b5;
+}
