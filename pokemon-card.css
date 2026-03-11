@@ -131,3 +131,37 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+.card-pastel {
+  background: linear-gradient(160deg, #ffe4ec, #ffd6e0, #fff0f5);
+  border-color: #f4a6c1;
+  box-shadow: 0 8px 20px rgba(255, 170, 200, 0.4);
+}
+
+.card-pastel .card-image-container {
+  background-color: #fff5f8;
+  border-color: #f4a6c1;
+}
+
+.card-pastel .type-badge {
+  background-color: #ffd6e7;
+  border-color: #f4a6c1;
+}
+
+.card-ability {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 10px;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.ability-name {
+  font-weight: bold;
+  color: #555;
+}
+
+.ability-value {
+  color: #c94f7c;
+}
