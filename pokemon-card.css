@@ -131,3 +131,19 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+.card.golduck {
+  background: linear-gradient(160deg, #66ccff, #3399ff, #0066cc); 
+  border: 3px solid #004080; /
+}
+
+.card.golduck .card-image-container {
+  background-color: #e6f7ff; 
+  border: 2px solid #004080;
+}
+
+.card.golduck .type-badge {
+  background-color: #66ccff;
+  border: 1px solid #004080;
+  color: #003366;
+}
