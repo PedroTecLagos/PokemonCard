@@ -131,3 +131,32 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+
+.card-charmeleon {
+  background: linear-gradient(160deg, #ff9a3c, #ff6a00, #ff3c00);
+  border: 3px solid #8b2500;
+}
+
+.card-charmeleon .card-image-container {
+  background-color: #fff0e6;
+  border: 2px solid #8b2500;
+}
+
+.card-charmeleon .type-badge {
+  background-color: #ff6a00;
+  border: 1px solid #8b2500;
+  color: white;
+}
+
+.card-charmeleon .card-description {
+  background-color: rgba(255, 240, 220, 0.8);
+}
+
+.card-charmeleon .card-stats {
+  background-color: rgba(255, 220, 200, 0.6);
+}
+
+.card-charmeleon .card-rarity {
+  color: #ff3c00;
+}
