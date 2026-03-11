@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokémon Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="pokemon-card.css" />
   </head>
   <body>
-    <div class="card">
+    <div class="card card-pikachu">
       <div class="card-header">
         <span class="card-name">Pikachu</span>
         <span class="card-hp">HP 60</span>
@@ -49,45 +50,82 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="card-header">
-        <span class="card-name">Pikachu 2</span>
-        <span class="card-hp">HP 60</span>
-      </div>
-      <div class="card-image-container">
-        <img
-          class="card-image"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
-          alt="Pikachu"
-        />
-      </div>
-      <div class="card-type">
-        <span class="type-badge">⚡ Eléctrico</span>
-      </div>
-      <div class="card-description">
-        <p class="card-text">
-          Cuando Pikachu se encuentra con algo nuevo, lo descarga con
-          electricidad. Si encuentras un árbol chamuscado, es señal de que
-          Pikachu ha pasado por allí.
-        </p>
-      </div>
-      <div class="card-stats">
-        <div class="stat">
-          <span class="stat-label">Ataque</span>
-          <span class="stat-value">55</span>
+    <div class="card-zekrom">
+      <div class="zekrom-bg">
+        <span class="zk-stage">Legendario · Pokémon-EX</span>
+        <div class="zk-header-row">
+          <div class="zk-name-block">
+            <span class="zk-name">Zekrom</span>
+            <span class="zk-ex-badge">ex</span>
+          </div>
+          <div class="zk-hp-block">
+            <span class="zk-hp-label">PS</span>
+            <span class="zk-hp-value">330</span>
+            <span class="zk-hp-icon">⚡</span>
+          </div>
         </div>
-        <div class="stat">
-          <span class="stat-label">Defensa</span>
-          <span class="stat-value">40</span>
+        <div class="zk-evolves">Pokémon Legendario de Unova</div>
+        <div class="zk-image-wrap">
+          <div class="zk-image-bg"></div>
+          <div class="zk-sparks"></div>
+          <img
+            class="zk-image"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png"
+            alt="Zekrom"
+          />
         </div>
-        <div class="stat">
-          <span class="stat-label">Velocidad</span>
-          <span class="stat-value">90</span>
+        <div class="zk-type">
+          <span class="zk-type-badge">⚡ Eléctrico · 🐉 Dragón</span>
         </div>
-      </div>
-      <div class="card-footer">
-        <span class="card-number">#025</span>
-        <span class="card-rarity">★★★</span>
+        <div class="zk-attacks">
+          <div class="zk-attack">
+            <div class="zk-attack-header">
+              <div class="zk-attack-left">
+                <div class="zk-attack-cost">
+                  <div class="energy-dot">⚡</div>
+                  <div class="energy-dot">⚡</div>
+                </div>
+                <span class="zk-attack-name">Garra Dragón</span>
+              </div>
+              <span class="zk-attack-damage">100</span>
+            </div>
+            <p class="zk-attack-desc">Inflinge 30 de daño adicional por cada Energía Eléctrica adherida a este Pokémon.</p>
+          </div>
+          <div class="zk-attack">
+            <div class="zk-attack-header">
+              <div class="zk-attack-left">
+                <div class="zk-attack-cost">
+                  <div class="energy-dot">⚡</div>
+                  <div class="energy-dot">⚡</div>
+                  <div class="energy-dot">⚡</div>
+                </div>
+                <span class="zk-attack-name">Tormenta Fusión</span>
+              </div>
+              <span class="zk-attack-damage">300</span>
+            </div>
+            <p class="zk-attack-desc">Descarta todas las Energías de este Pokémon. No puede usar este ataque el siguiente turno.</p>
+          </div>
+        </div>
+        <div class="zk-footer">
+          <div class="zk-weakness-block">
+            <div class="zk-stat-mini">
+              <span class="zk-stat-mini-label">Debilidad</span>
+              <span class="zk-stat-mini-value">🧊 ×2</span>
+            </div>
+            <div class="zk-stat-mini">
+              <span class="zk-stat-mini-label">Resistencia</span>
+              <span class="zk-stat-mini-value">—</span>
+            </div>
+            <div class="zk-stat-mini">
+              <span class="zk-stat-mini-label">Retirada</span>
+              <span class="zk-stat-mini-value">⚡⚡⚡</span>
+            </div>
+          </div>
+          <div class="zk-number-rarity">
+            <span class="zk-number">#644 · Unova</span>
+            <span class="zk-rarity">★★★</span>
+          </div>
+        </div>
       </div>
     </div>
   </body>
