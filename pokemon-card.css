@@ -131,3 +131,14 @@ body {
   color: #b8860b;
   letter-spacing: 2px;
 }
+
+.card-blue
+{
+background: linear-gradient(135deg, #1a6fc4 0%, #0d4a9e 50%, #072f6b 100%);
+  border: 2px solid rgba(100, 180, 255, 0.4);
+  box-shadow: 
+    0 8px 32px rgba(0, 80, 200, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: #ffffff;
+}
